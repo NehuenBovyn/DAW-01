@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto - ACT 03</title>
+</head>
+<body>
+    <h1>ACTIVIDAD CLASE 3</h1>
+    <h2>Formulario de Contacto</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="motivo">Motivo de Contacto:</label>
+        <select id="motivo" name="motivo">
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="queja">Queja</option>
+        </select>
+        <br>
+        <label for="preferencias">Preferencias de Contacto:</label><br>
+        <input type="radio" id="telefono" name="preferencias" value="telefono">
+        <label for="telefono">Teléfono</label>
+        <br>
+        <input type="radio" id="email" name="preferencias" value="email">
+        <label for="email">Email</label>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+        <a href="../act-02/index.html"><button>Cancelar</button></a>
+      </form>
+</body>
+</html>
