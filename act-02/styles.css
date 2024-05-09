@@ -138,3 +138,92 @@ button {
   color: #5a5a5a;
   text-decoration: none;
 }
+.nav-top-mobile {
+  display: none;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  /* Estilos específicos para móviles */
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem;
+  }
+  
+  main {
+    margin: 70px 0px;
+    padding: 40px 10px;
+    position: relative;
+  }
+  aside {
+    height: 800px;
+    width: 100%;
+    background-color: grey;
+  }
+  header {
+    position: fixed;
+    background-color: white ;
+    z-index: 1000;
+    border-bottom: 1px solid #8f8f8f;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  footer {
+    width: max-content;
+  }
+  
+  .nav-top {
+    display: none;
+  }
+  .nav-top-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #8f8f8f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+}
+
+/* Estilos para tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  footer {
+    width: max-content;
+  }
+
+  main {
+    margin: 70px 0px;
+    padding: 40px 10px;
+    position: relative;
+  }
+  aside {
+    height: 800px;
+    width: 100%;
+    background-color: grey;
+  }
+  header {
+    position: fixed;
+    background-color: white ;
+    z-index: 1000;
+    border-bottom: 1px solid #8f8f8f;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+  }
+ 
+
+}
