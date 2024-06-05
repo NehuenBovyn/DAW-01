@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de suscripción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Actividad clase 9</h1>
+    </header>
+    <main>
+        <h2 id="form-title">Formulario</h2>
+        <form id="subscription-form">
+            <div class="form-row">
+                <label for="full-name">Nombre completo:</label>
+                <input type="text" id="full-name" name="full-name">
+                <span class="error-message" id="error-full-name"></span>
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <span class="error-message" id="error-email"></span>
+            </div>
+            <div class="form-row">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password">
+                <span class="error-message" id="error-password"></span>
+            </div>
+            <div class="form-row">
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age">
+                <span class="error-message" id="error-age"></span>
+            </div>
+            <div class="form-row">
+                <label for="phone">Teléfono:</label>
+                <input type="text" id="phone" name="phone">
+                <span class="error-message" id="error-phone"></span>
+            </div>
+            <div class="form-row">
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" name="address">
+                <span class="error-message" id="error-address"></span>
+            </div>
+            <div class="form-row">
+                <label for="city">Ciudad:</label>
+                <input type="text" id="city" name="city">
+                <span class="error-message" id="error-city"></span>
+            </div>
+            <div class="form-row">
+                <label for="postal-code">Código postal:</label>
+                <input type="text" id="postal-code" name="postal-code">
+                <span class="error-message" id="error-postal-code"></span>
+            </div>
+            <div class="form-row">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni">
+                <span class="error-message" id="error-dni"></span>
+            </div>
+            <div class="form-row">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
